@@ -111,7 +111,11 @@ __webpack_require__.r(__webpack_exports__);
 /***/ (function(module, exports) {
 
 app.initializers.add('serakoi/flarum-hideprofile', function () {
-  console.log('[serakoi/flarum-hideprofile] Hello, admin!');
+  app.extensionData["for"]('HideProfile').registerSetting({
+    label: app.translator.trans('HideProfile.admin.settings.bannerText'),
+    setting: 'HideProfile.bannerText',
+    type: 'text'
+  });
 });
 
 /***/ })
