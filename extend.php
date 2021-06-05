@@ -1,9 +1,9 @@
 <?php
 
 /*
- * This file is part of serakoi/flarum-hide-profile.
+ * This file is part of serakoi/flarum-hideprofile.
  *
- * Copyright (c) 2021 Seer.
+ * Copyright (c) 2021 Serakoi.
  *
  * For the full copyright and license information, please view the LICENSE.md
  * file that was distributed with this source code.

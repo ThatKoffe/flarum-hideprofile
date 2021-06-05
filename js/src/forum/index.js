@@ -1,3 +1,3 @@
-app.initializers.add('serakoi/flarum-hide-profile', () => {
-  console.log('[serakoi/flarum-hide-profile] Hello, forum!');
+app.initializers.add('serakoi/flarum-hideprofile', () => {
+  console.log('[serakoi/flarum-hideprofile] Hello, forum!');
 });

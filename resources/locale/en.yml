@@ -1,4 +1,0 @@
-flarum-hide-profile:
-  admin: 
-    settings:
-      bannerText: Hidden user profile banner message.

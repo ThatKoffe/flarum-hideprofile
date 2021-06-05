@@ -1,5 +1,5 @@
 {
-  "name": "@serakoi/flarum-hide-profile",
+  "name": "@serakoi/flarum-hideprofile",
   "version": "0.0.0",
   "private": true,
   "dependencies": {

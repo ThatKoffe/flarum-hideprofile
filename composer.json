@@ -1,6 +1,6 @@
 {
-  "name": "serakoi/flarum-hide-profile",
-  "description": "Easily hide user profiles from the community!",
+  "name": "serakoi/flarum-hideprofile",
+  "description": "Simply hide user data from users!",
   "keywords": [
     "flarum"
   ],
@@ -11,7 +11,7 @@
   },
   "authors": [
     {
-      "name": "Seer",
+      "name": "Serakoi",
       "email": "admin@seer-software.com",
       "role": "Developer"
     }
