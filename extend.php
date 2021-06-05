@@ -12,6 +12,7 @@
 namespace Serakoi\HideProfile;
 
 use Flarum\Extend;
+use Serakoi\HideProfile\GetHiddenUsersController;
 
 return [
     (new Extend\Frontend('forum'))
@@ -20,5 +21,7 @@ return [
     (new Extend\Frontend('admin'))
         ->js(__DIR__.'/js/dist/admin.js')
         ->css(__DIR__.'/resources/less/admin.less'),
-    new Extend\Locales(__DIR__ . '/resources/locale')
+    new Extend\Locales(__DIR__ . '/resources/locale'),
+    (new Extend\Routes('forum'))
+        ->get('/api/hidden-users', 'hideProfile.api-get-users', GetHiddenUsersController::class)
 ];
